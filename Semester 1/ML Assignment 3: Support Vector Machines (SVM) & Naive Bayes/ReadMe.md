@@ -1,4 +1,3 @@
-```markdown
 # ML Assignment 3: Support Vector Machines (SVM) & Naive Bayes
 
 ## Overview
