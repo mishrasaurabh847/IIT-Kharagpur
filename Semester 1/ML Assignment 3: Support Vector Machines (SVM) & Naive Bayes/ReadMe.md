@@ -39,8 +39,7 @@ The repository is organized as follows:
 - Semester 1
   - ML Assignment 3: Support Vector Machines (SVM) & Naive Bayes
     - Q_1.ipynb
-
-    - Q_2.pdf
+    - Q_2.ipynb
     - requirements.txt
 ```
 
