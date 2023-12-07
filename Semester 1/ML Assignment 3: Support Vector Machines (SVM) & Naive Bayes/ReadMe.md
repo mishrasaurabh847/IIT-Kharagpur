@@ -12,7 +12,6 @@ This repository contains the implementation and exploration of machine learning 
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [Examples](#examples)
-7. [Contributing](#contributing)
 
 ## Introduction
 
@@ -96,7 +95,3 @@ The Jupyter Notebooks included in this repository contain detailed information a
 ## Examples
 
 Explore the Jupyter Notebooks to see practical examples and use cases showcasing the application of SVM and Naive Bayes with different features.
-
-## Contributing
-
-If you'd like to contribute to this project, please follow the guidelines outlined in the [CONTRIBUTING.md](CONTRIBUTING.md) file.
