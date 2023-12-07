@@ -41,6 +41,7 @@ The repository is organized as follows:
     - Q_1.ipynb
     - Q_2.ipynb
     - requirements.txt
+    - Readme.md
 ```
 
 ## Installation
