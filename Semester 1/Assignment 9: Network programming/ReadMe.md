@@ -61,27 +61,34 @@ This project involves the implementation of a simplified version of the ping com
 ## Usage
 ### Ping
 1. Compile the server and client programs separately.
+   ```bash
+   gcc ping_server.c -o ping_server
+   gcc ping_client.c -o ping_client
+   ```
 2. Run the server executable with the desired port.
+   ```bash
+   ./ping_server <port>
+   ```
 3. Run the client executable with the server IP, port, number of ping requests, and interval.
+   ```bash
+   ./ping_client <server_ip> <port> <num_requests> <interval>
+   ```
 
 ### FTP
 1. Compile the server and client programs separately.
+   ```bash
+   gcc ftp_server.c -o ftp_server
+   gcc ftp_client.c -o ftp_client
+   ```
 2. Run the server executable with the desired port.
+   ```bash
+   ./ftp_server <port>
+   ```
 3. Run the client executable with the server IP, port, number of ping requests, and interval.
+   ```bash
+   ./ftp_client <server_ip> <port>
+   ```
 4. Use the `ftp_client>` prompt to enter FTP commands.
-
-## Compiling and Running
-### Ping Compilation
-```bash
-gcc ping_server.c -o ping_server
-gcc ping_client.c -o ping_client
-```
-
-### FTP Compilation
-```bash
-gcc ftp_server.c -o ftp_server
-gcc ftp_client.c -o ftp_client
-```
 
 ## Important Note
 The entire assignment is explained in "Assignment - 9 (Networks).pdf".
