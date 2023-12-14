@@ -60,7 +60,7 @@ This project involves the implementation of a simplified version of the ping com
 
 ## Usage
 ### Ping
-1. Compile the server and client programs separately.
+1. Compile the server and client programs **separately**.
    ```bash
    gcc server.c
    gcc client.c
@@ -75,7 +75,7 @@ This project involves the implementation of a simplified version of the ping com
    ```
 
 ### FTP
-1. Compile the server and client programs separately.
+1. Compile the server and client programs **separately**.
    ```bash
    gcc server.c
    gcc client.c
@@ -91,4 +91,4 @@ This project involves the implementation of a simplified version of the ping com
 4. Use the `ftp_client>` prompt to enter FTP commands.
 
 ## Important Note
-The entire assignment is explained in "Assignment - 9 (Networks).pdf".
+The entire assignment is explained in **"Assignment - 9 (Networks).pdf"**.
