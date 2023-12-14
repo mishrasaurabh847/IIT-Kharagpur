@@ -62,31 +62,31 @@ This project involves the implementation of a simplified version of the ping com
 ### Ping
 1. Compile the server and client programs separately.
    ```bash
-   gcc ping_server.c -o ping_server
-   gcc ping_client.c -o ping_client
+   gcc server.c
+   gcc client.c
    ```
 2. Run the server executable with the desired port.
    ```bash
-   ./ping_server <port>
+   ./a.out
    ```
 3. Run the client executable with the server IP, port, number of ping requests, and interval.
    ```bash
-   ./ping_client <server_ip> <port> <num_requests> <interval>
+   ./a.out
    ```
 
 ### FTP
 1. Compile the server and client programs separately.
    ```bash
-   gcc ftp_server.c -o ftp_server
-   gcc ftp_client.c -o ftp_client
+   gcc server.c
+   gcc client.c
    ```
 2. Run the server executable with the desired port.
    ```bash
-   ./ftp_server <port>
+   ./a.out
    ```
 3. Run the client executable with the server IP, port, number of ping requests, and interval.
    ```bash
-   ./ftp_client <server_ip> <port>
+   ./a.out
    ```
 4. Use the `ftp_client>` prompt to enter FTP commands.
 
